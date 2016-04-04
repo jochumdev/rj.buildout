@@ -1,3 +1,6 @@
+# Sublime
+*.sublime-*
+
 *.py[co]
 
 # Packages
@@ -12,6 +15,7 @@ var
 sdist
 develop-eggs
 .installed.cfg
+src/
 
 # Installer logs
 pip-log.txt
@@ -41,3 +45,9 @@ lib/
 local/
 
 .idea/
+
+# plone-compile-resources
+Gruntfile.js
+node_modules/
+temp_resources/
+package.json
